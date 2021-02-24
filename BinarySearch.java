@@ -2,7 +2,7 @@ package binarysearch;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        // For binary searching, it should be a sorted array.
+        // For binary searching, it should be a sorted array. If there ia an unsorted array, we can sort the array using Arrays.sort(arr) method.
         int[] arr={2,3,5,7,9,23,67,89,99};
         int item=67, li=0, hi=arr.length-1, mi=(li+hi)/2;
           
